@@ -5,7 +5,7 @@ import { loginUser } from "./userController.js";
 
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY)
 
-const frontend_url = "http://localhost:3000"
+const frontend_url = "https://food-ordering-website-frontend-anem.onrender.com"
 
 const placeOrder = async (req, res) => {
     try {
