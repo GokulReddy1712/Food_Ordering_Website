@@ -19,7 +19,7 @@ const List = ({ url }) => {
       }
     } catch (error) {
       console.error("Error fetching data:", error);
-      toast.error("Network ErroR);
+      toast.error("Network ErroR");
     } finally {
       setLoading(false);
     }
